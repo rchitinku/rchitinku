@@ -76,6 +76,20 @@
 }
 	 }
 
+    body { 
+            animation: fadeInAnimation ease 3s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards; 
+        } 
+        @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        } 
+
 
 
 </style>
@@ -128,7 +142,7 @@
 
           <img alt="picture" src="img/p1.jpg"
             class="img-fluid w3-opacity-min">
-          <p class="text-center my-3" style="font-weight: 350;" style="font-weight: 350;">Very first Pic with Nani.</p>
+          <p class="text-center my-3" style="font-weight: 350; fon">Very first Pic with Nani.</p>
         </a></div>
   <div class="col-sm-3">
 
